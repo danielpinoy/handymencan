@@ -3,9 +3,15 @@ import React from "react";
 const Header = () => {
   return (
     <header className="bg-white">
-      {/* Top bar with contact info and social */}
       <div className="bg-gray-50 py-2 border-b border-gray-200">
-        <div className="mx-auto px-6 flex justify-between items-center text-sm">
+        <div
+          className="mx-auto px-6 items-center text-sm"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1fr auto 1fr",
+            alignItems: "center",
+          }}
+        >
           {/* Left side - Contact */}
           <div className="flex items-center gap-2">
             <svg
@@ -20,12 +26,15 @@ const Header = () => {
               +1 (345) 922 6665
             </span>
           </div>
+          {/* Center text */}
           <h1 className="text-2xl font-bold text-black">
             Turning Your To-Do List Into a Done List
           </h1>
-
           {/* Right side - Social */}
-          <div className="flex items-center gap-6 ">
+          <div
+            className="flex items-center gap-6"
+            style={{ justifySelf: "end" }}
+          >
             <div className="flex items-center gap-3">
               {/* Facebook Icon */}
               <a href="#" className="text-gray-600 hover:text-gray-800">
