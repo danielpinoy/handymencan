@@ -80,25 +80,22 @@ const Header = () => {
           {/* Navigation Menu */}
           <nav className="flex items-center justify-center gap-12 bg-gray-50 py-2 border-b border-gray-200 ">
             <a href="#" className="text-gray-700 hover:text-black font-medium">
-              Products
+              Home
             </a>
             <a href="#" className="text-gray-700 hover:text-black font-medium">
-              Solutions
-            </a>
-            <a href="#" className="text-gray-700 hover:text-black font-medium">
-              Softwares
+              About Us
             </a>
             <a href="#" className="text-gray-700 hover:text-black font-medium">
               Services
             </a>
             <a href="#" className="text-gray-700 hover:text-black font-medium">
-              Corporate
+              How to Book
             </a>
             <a href="#" className="text-gray-700 hover:text-black font-medium">
-              News
+              Our Projects
             </a>
             <a href="#" className="text-gray-700 hover:text-black font-medium">
-              Contact
+              Contact Us
             </a>
           </nav>
         </div>
